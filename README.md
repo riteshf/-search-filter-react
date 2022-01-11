@@ -15,12 +15,12 @@ npm install --save @search-filter/react
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from '@search-filter/react'
+import { SearchFilter } from '@search-filter/react'
 import '@search-filter/react/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <SearchFilter option={...} selections={...} updateFilter={Function(newSelections)}/>
   }
 }
 ```
